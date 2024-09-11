@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
+            appname {window.cfg888}
       <p>home page..</p>
        <Link to="/addform">
         <button>Go to AddForm Page</button>

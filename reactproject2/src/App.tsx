@@ -10,7 +10,7 @@ import Addform from './libBiz/Addform';
 import { sleep, echo } from './lib/bsc';
 function App() {
 
-    echo("echo11111")
+  
   const [count, setCount] = useState(0)
 
   return (

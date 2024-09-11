@@ -1,0 +1,3 @@
+C:\0oprj\reactTsPrjs\NodejsConsoleApp1wzReact\obj\Debug\NodejsConsoleApp1wzReact.njsproj.AssemblyReference.cache
+C:\0oprj\reactTsPrjs\NodejsConsoleApp1wzReact\obj\Debug\NodejsConsoleApp1wzReact.njsproj.CoreCompileInputs.cache
+C:\0oprj\reactTsPrjs\NodejsConsoleApp1wzReact\bin\Microsoft.NodejsTools.WebRole.dll
