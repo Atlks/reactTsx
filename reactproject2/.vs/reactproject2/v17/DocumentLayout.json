@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uuu\\source\\repos\\reactproject2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\lib\\bsctest.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\src\\lib\\bsctest.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\lib\\bsc.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\src\\lib\\bsc.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\libbiz\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\src\\libbiz\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\reactproject2.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\reactproject2.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\doc\\dev env.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\doc\\dev env.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|c:\\users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\libbiz\\addform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D527778B-D6FD-432B-BEF3-60E306E10759}|reactproject2\\reactproject2.esproj|solutionrelative:reactproject2\\src\\libbiz\\addform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bscTest.ts",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\lib\\bscTest.ts",
+              "RelativeDocumentMoniker": "reactproject2\\src\\lib\\bscTest.ts",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\lib\\bscTest.ts",
+              "RelativeToolTip": "reactproject2\\src\\lib\\bscTest.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-11T10:14:48.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bsc.ts",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\lib\\bsc.ts",
+              "RelativeDocumentMoniker": "reactproject2\\src\\lib\\bsc.ts",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\lib\\bsc.ts",
+              "RelativeToolTip": "reactproject2\\src\\lib\\bsc.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-11T10:14:43.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dev env.md",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\doc\\dev env.md",
+              "RelativeDocumentMoniker": "reactproject2\\doc\\dev env.md",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\doc\\dev env.md",
+              "RelativeToolTip": "reactproject2\\doc\\dev env.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-11T10:09:24.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Addform.tsx",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\libBiz\\Addform.tsx",
+              "RelativeDocumentMoniker": "reactproject2\\src\\libBiz\\Addform.tsx",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\libBiz\\Addform.tsx",
+              "RelativeToolTip": "reactproject2\\src\\libBiz\\Addform.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-11T09:58:41.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.tsx",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\libBiz\\Home.tsx",
+              "RelativeDocumentMoniker": "reactproject2\\src\\libBiz\\Home.tsx",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\libBiz\\Home.tsx",
+              "RelativeToolTip": "reactproject2\\src\\libBiz\\Home.tsx",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-11T09:58:16.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "reactproject2",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\reactproject2.esproj",
+              "RelativeDocumentMoniker": "reactproject2\\reactproject2.esproj",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\reactproject2.esproj",
+              "RelativeToolTip": "reactproject2\\reactproject2.esproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T09:51:54.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\App.tsx",
+              "RelativeDocumentMoniker": "reactproject2\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\App.tsx",
+              "RelativeToolTip": "reactproject2\\src\\App.tsx",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-11T09:52:20.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\App.css",
+              "RelativeDocumentMoniker": "reactproject2\\src\\App.css",
+              "ToolTip": "C:\\Users\\uuu\\source\\repos\\reactproject2\\reactproject2\\src\\App.css",
+              "RelativeToolTip": "reactproject2\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-11T09:52:19.781Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
