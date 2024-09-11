@@ -5,5 +5,7 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsServe Condition="$(PackageJsonScriptsServe) == ''">vite preview</PackageJsonScriptsServe>
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^6.26.2</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesVite Condition="$(PackageJsonDependenciesVite) == ''">^5.4.4</PackageJsonDependenciesVite>
+    <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^4.3.1</PackageJsonDevdependenciesVitejsPluginReact>
   </PropertyGroup>
 </Project>

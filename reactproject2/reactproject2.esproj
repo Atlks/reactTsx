@@ -7,5 +7,6 @@
     <ShouldRunBuildScript>false</ShouldRunBuildScript>
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist88</BuildOutputFolder>
+    <BuildCommand>npm run build</BuildCommand>
   </PropertyGroup>
 </Project>
