@@ -4,10 +4,6 @@ function fff() {
 }
 fff()
 
-import { MyComponent, cmpnt2fun, TablePage, fetchData } from './MyComponent.js'; // ??????
-
-//fetchData()
-
 import express from 'express';
 import path from 'path';
 //import { sleep, echo } from './lib/bsc.js';
@@ -30,7 +26,17 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const app = express();
-const port = 3000; // ?????
+const port = 8080; // ?????
+
+//-----------cors crs domain
+//const cors = require('cors');
+import cors from 'cors';
+// ?? cors ???
+app.use(cors());
+
+//----------post parse
+//const bodyParser = require('body-parser');
+//app.use(bodyParser.json());
 
 // ????????
 const publicPath = path.join(__dirname, '');

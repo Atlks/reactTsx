@@ -3,6 +3,7 @@ function fff() {
     console.log('Helffffflo  ');
 }
 fff();
+//fetchData()
 import express from 'express';
 import path from 'path';
 //import { sleep, echo } from './lib/bsc.js';
