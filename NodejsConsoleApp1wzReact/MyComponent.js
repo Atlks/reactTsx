@@ -1,8 +1,17 @@
 // MyComponent.js
  //import React from 'react';
 
-const MyComponent = () => {
-    return React.createElement('div', null, 'Hello, world555777!');
+export function MyComponent() {
+    return React.createElement('div', {
+        dangerouslySetInnerHTML: {
+            __html: '<span>Hello, world555777999!</span>'
+        }
+    });
+    //finish
 };
 
-export default MyComponent;
+export function cmpnt2fun() {
+    return React.createElement('div', null, 'Hello, cmpnt2!');
+}
+
+ 
