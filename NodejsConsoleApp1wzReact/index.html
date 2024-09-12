@@ -16,17 +16,17 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
      
-    <script src="app.js"></script>
-    <scriptx  type="module"  src="MyComponent.js"></scriptx>
-    <script type="text/babel">
-          //      import MyComponent2 from './MyComponent'; // ??????
-          
-        const MyComponent = () => {
-            return <div>Hello from React!</div>;
-        };
-                ReactDOM.render(
-                    React.createElement(MyComponent),  // ???????
-                     document.getElementById('root'));
+    <scriptx src="app.js"></scriptx>
+    <script  type="module"  src="MyComponent.js"></script>
+    <script type="module">
+        import MyComponent2 from './MyComponent.js'; // ??????
+
+        //const MyComponent = () => {
+        //    return <div>Hello from React!</div>;
+        //};
+        ReactDOM.render(
+            React.createElement(MyComponent2),  // ???????
+            document.getElementById('root'));
     </script>
     <a href="list.html">list.html</a>
 </body>

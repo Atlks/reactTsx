@@ -33,7 +33,13 @@
     <Content Include="doc\cros ajax slv.md">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="index.htm">
+    <Content Include="doc\fast react dev.md">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="doc\JavaScript1.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="list422.json" />
