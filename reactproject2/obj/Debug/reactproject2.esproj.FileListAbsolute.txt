@@ -1,2 +1,0 @@
-C:\Users\uuu\source\repos\reactproject2\reactproject2\obj\Debug\reactproject2.esproj.CoreCompileInputs.cache
-C:\0oprj\reactTsPrjs\reactproject2\obj\Debug\reactproject2.esproj.CoreCompileInputs.cache

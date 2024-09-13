@@ -2,11 +2,11 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "es6",
-    "lib": [ "es6" ],
+    "lib": [ "esnext", "dom" ],
     "esModuleInterop": true, // 允许默认导入 CommonJS 模块
     "sourceMap": true,
     "moduleResolution": "node"
-   
+
 
   },
   "exclude": [

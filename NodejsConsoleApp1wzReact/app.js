@@ -4,6 +4,7 @@ function fff() {
 }
 fff();
 //fetchData()
+import 'blob-polyfill';
 import express from 'express';
 import path from 'path';
 //import { sleep, echo } from './lib/bsc.js';

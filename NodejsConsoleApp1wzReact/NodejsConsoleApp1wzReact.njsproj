@@ -54,6 +54,9 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="list.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="svr.ts" />
     <TypeScriptCompile Include="bsc1.ts">
       <SubType>Code</SubType>

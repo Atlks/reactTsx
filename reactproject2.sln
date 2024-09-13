@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactproject2", "reactproject2\reactproject2.esproj", "{D527778B-D6FD-432B-BEF3-60E306E10759}"
-EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueproject1ts", "vueproject1Ts\vueproject1ts.esproj", "{383F7EE8-5CA4-480D-A586-E618E43BA1C3}"
-EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsConsoleApp1wzReact", "NodejsConsoleApp1wzReact\NodejsConsoleApp1wzReact.njsproj", "{4FF8090B-A135-4861-9A69-801B668127BE}"
 EndProject
 Global
@@ -15,18 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D527778B-D6FD-432B-BEF3-60E306E10759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D527778B-D6FD-432B-BEF3-60E306E10759}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D527778B-D6FD-432B-BEF3-60E306E10759}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D527778B-D6FD-432B-BEF3-60E306E10759}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D527778B-D6FD-432B-BEF3-60E306E10759}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D527778B-D6FD-432B-BEF3-60E306E10759}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{383F7EE8-5CA4-480D-A586-E618E43BA1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{383F7EE8-5CA4-480D-A586-E618E43BA1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{383F7EE8-5CA4-480D-A586-E618E43BA1C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{383F7EE8-5CA4-480D-A586-E618E43BA1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{383F7EE8-5CA4-480D-A586-E618E43BA1C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{383F7EE8-5CA4-480D-A586-E618E43BA1C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{4FF8090B-A135-4861-9A69-801B668127BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4FF8090B-A135-4861-9A69-801B668127BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF8090B-A135-4861-9A69-801B668127BE}.Release|Any CPU.ActiveCfg = Release|Any CPU

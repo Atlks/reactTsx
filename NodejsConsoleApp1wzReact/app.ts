@@ -7,7 +7,7 @@ fff()
 import { MyComponent, cmpnt2fun, TablePage, fetchData } from './MyComponent.js'; // ??????
 
 //fetchData()
-
+import 'blob-polyfill';
 import express from 'express';
 import path from 'path';
 //import { sleep, echo } from './lib/bsc.js';

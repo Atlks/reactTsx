@@ -3,7 +3,9 @@
 
 //import  { useState, useEffect } from 'react';
 //import React from 'react';
-
+//import React from 'react';
+//import fetch from 'node-fetch'; // Import node-fetch
+import { fetchData8  } from './list.js';
 export function MyComponent() {
     return React.createElement('div', {
         dangerouslySetInnerHTML: {
@@ -32,7 +34,7 @@ export   function TablePage() {
     // ?? useEffect ?????????? fetchData
     useEffect(async () => {
         setLoading(true);
-        setData( await fetchData()); // ?????????         
+        setData( await fetchData8()); // ?????????         
     }, []); // ??????????????????
     console.log(1153)
    // const data = await fetchData()
@@ -51,32 +53,4 @@ export   function TablePage() {
 
     return React.createElement('div', {    dangerouslySetInnerHTML: {  __html: tableHTML  }    });
 }
-// ????????
-export async function fetchData() {
-    console.log("function fetchData");
  
-    console.log(1157)
-    //Invalid hook call. Hooks can only be called inside of the body of a function component
-   
-    console.log(1158)
-   // setLoading(true); // ??????
-  //  setError(null); // ???????
-    try {
-        const response = await fetch('http://localhost:8080/list422.json');
-        // ??JSON??
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        const result = await response.json(); // ??JSON??
-        console.log(1155)
-      
-        return result
-        console.log(1156)
-
-    } catch (error) {
-       console.log(error)
-      //  setError(error); // ??????
-    } finally {
-       // setLoading(false); // ??????
-    }
-}
