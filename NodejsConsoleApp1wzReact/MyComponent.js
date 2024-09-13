@@ -19,7 +19,7 @@ export function cmpnt2fun() {
 
 
 
-export function TablePage() {
+export   function TablePage() {
     //import React, { useState, useEffect } from 'react';
     console.log("function TablePage*(")
     const { useState, useEffect } = React;
@@ -28,39 +28,42 @@ export function TablePage() {
     const [loading, setLoading] = useState(false); // ??????????
     const [error, setError] = useState(null); // ????????
 
-      async function fetchData2() {
-        console.log("function fetchData");
-        const { useState, useEffect } = React;
-        console.log(1157)
-        //Invalid hook call. Hooks can only be called inside of the body of a function component
-      //  const [data, setData] = useState([]); // ?????JSON?????
-        console.log(1158)
-        // setLoading(true); // ??????
-        //  setError(null); // ???????
-        try {
-            const response = await fetch('http://localhost:8080/list422.json');
-            // ??JSON??
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const result = await response.json(); // ??JSON??
-            console.log(1155)
-            setData(result); // ?????????
-            console.log(1156)
-
-        } catch (error) {
-            console.log(error)
-            //  setError(error); // ??????
-        } finally {
-            // setLoading(false); // ??????
-        }
-    }
-    console.log(1152)
+   console.log(1152)
     // ?? useEffect ?????????? fetchData
     useEffect(() => {
+        async function fetchData2() {
+            console.log("function fetchData");
+            const { useState, useEffect } = React;
+            console.log(1157)
+            //Invalid hook call. Hooks can only be called inside of the body of a function component
+            //  const [data, setData] = useState([]); // ?????JSON?????
+            console.log(1158)
+            // setLoading(true); // ??????
+            //  setError(null); // ???????
+            try {
+                const response = await fetch('http://localhost:8080/list422.json');
+                // ??JSON??
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const result = await response.json(); // ??JSON??
+                console.log(1155)
+                setData(result); // ?????????
+                console.log(1156)
+
+            } catch (error) {
+                console.log(error)
+                //  setError(error); // ??????
+            } finally {
+                // setLoading(false); // ??????
+            }
+        }
+
+
         fetchData2(); // ????????? fetchData ??
     }, []); // ??????????????????
     console.log(1153)
+   // const data = await fetchData()
 
     const tableHTML = `  <table>  <thead> <tr>  <th>ID</th><th>Name</th> </tr> </thead>
                          <tbody>                            
@@ -77,11 +80,11 @@ export function TablePage() {
     return React.createElement('div', {    dangerouslySetInnerHTML: {  __html: tableHTML  }    });
 }
 // ????????
-export async function fetchData() {
+  async function fetchData() {
     console.log("function fetchData");
 
   //  import React, { useState, useEffect } from 'react';
-  //  const { useState, useEffect } = React;
+    const { useState, useEffect } = React;
     console.log(1157)
     //Invalid hook call. Hooks can only be called inside of the body of a function component
     const [data, setData] = useState([]); // ?????JSON?????
@@ -96,7 +99,8 @@ export async function fetchData() {
         }
         const result = await response.json(); // ??JSON??
         console.log(1155)
-        setData(result); // ?????????
+          setData(result); // ?????????
+        return result
         console.log(1156)
 
     } catch (error) {
