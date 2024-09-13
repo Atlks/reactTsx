@@ -4,8 +4,7 @@ function fff() {
 }
 fff()
 
-import express from 'express';
-import path from 'path';
+
 //import { sleep, echo } from './lib/bsc.js';
 //echo("echo11111")
 //import('./bscd');
@@ -21,6 +20,9 @@ console.log("start wbsvr...");
 //console.log(myFunction("222"))
 //sleepx(500 * 1000);
 
+
+import express from 'express';
+import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);

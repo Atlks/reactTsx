@@ -30,6 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="app.ts" />
+    <Content Include="doc\bindListData2table.md" />
     <Content Include="doc\cros ajax slv.md">
       <SubType>Code</SubType>
     </Content>
