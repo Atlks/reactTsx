@@ -18,7 +18,7 @@ export async function fetchData8() {
         console.log(1155)
 
         return result
-        console.log(1156)
+     //   console.log(1156)
 
     } catch (error) {
         console.log(error)

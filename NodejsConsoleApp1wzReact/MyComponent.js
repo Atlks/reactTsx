@@ -1,4 +1,4 @@
-// MyComponent.js
+// MyComponent.js  just us js fmt ,if ts fmt import react but err...cant run in brswr env..
  //import React from 'react';
 
 //import  { useState, useEffect } from 'react';
@@ -7,9 +7,10 @@
 //import fetch from 'node-fetch'; // Import node-fetch
 import { fetchData8  } from './list.js';
 export function MyComponent() {
+    const   tableHTML = `<span>Hello, world555777999!</span>`
     return React.createElement('div', {
         dangerouslySetInnerHTML: {
-            __html: '<span>Hello, world555777999!</span>'
+            __html: tableHTML
         }
     });
     //finish
