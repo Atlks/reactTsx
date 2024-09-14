@@ -41,7 +41,8 @@ export function React_createElement(htmlx) {
     // const data = await fetchData()
     //  React_createElement
 
- 
+    //  // ?? hydrate() ??? React ????????????? HTML ?
+  //  ReactDOM.hydrate(<App />, document.getElementById('root'));
 
     return React.createElement('div', { dangerouslySetInnerHTML: { __html: htmlx  }    });
 }
@@ -56,6 +57,9 @@ export function ReactDOM_render(createElementFun, rootElmt) {
             ReactDOM.render(
                 React.createElement(createElementFun1),  // ???????
                 document.getElementById(rootElmt));
+
+            //  // ?? hydrate() ??? React ????????????? HTML ?
+            //  ReactDOM.hydrate(<App />, document.getElementById('root'));
         })
         .catch(error => {
             console.error('Error:', error);

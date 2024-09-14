@@ -20,11 +20,13 @@ import path from 'path';
 
 //var f = global["myFunction"]
 
+
 //var s = myFunction("111")
 console.log("start wbsvr...");
 //console.log(myFunction("222"))
 //sleepx(500 * 1000);
-
+import { test422 } from './lib/bscUI.js';
+test422();
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);

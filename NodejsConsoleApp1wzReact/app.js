@@ -18,6 +18,8 @@ import path from 'path';
 console.log("start wbsvr...");
 //console.log(myFunction("222"))
 //sleepx(500 * 1000);
+import { test422 } from './lib/bscUI.js';
+test422();
 import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
