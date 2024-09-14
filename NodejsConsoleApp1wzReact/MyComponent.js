@@ -5,7 +5,7 @@
 //import React from 'react';
 //import React from 'react';
 //import fetch from 'node-fetch'; // Import node-fetch
-import { fetchData8  } from './list.js';
+import { fetchData8, createElement4data2tbl  } from './list.js';
 export function MyComponent() {
     const   tableHTML = `<span>Hello, world555777999!</span>`
     return React.createElement('div', {
@@ -19,10 +19,15 @@ export function MyComponent() {
 export function cmpnt2fun() {
     return React.createElement('div', null, 'Hello, cmpnt2!');
 }
+export function RenderData2CtrlAppdRoot(createElementFun,  rootElmt) {
+   
+    ReactDOM.render(
+        React.createElement(createElementFun),  // ???????
+        document.getElementById(rootElmt));
+}
 
-
-
-export   function TablePage() {
+//bind data 2 table apped to Elmt
+export function createElementx(datax,htmlx) {
     //import React, { useState, useEffect } from 'react';
     console.log("function TablePage*(")
     const { useState, useEffect } = React;
@@ -33,25 +38,15 @@ export   function TablePage() {
 
    console.log(1152)
     // ?? useEffect ?????????? fetchData
-    useEffect(async () => {
-        setLoading(true);
-        setData( await fetchData8()); // ?????????         
-    }, []); // ??????????????????
+    //useEffect(async () => {
+    //    setLoading(true);
+    //    setData(datax); // ?????????         
+    //}, []); // ??????????????????
     console.log(1153)
    // const data = await fetchData()
 
-    const tableHTML = `  <table>  <thead> <tr>  <th>ID</th><th>Name</th> </tr> </thead>
-                         <tbody>                            
-                                 ${data.map(item => `
-                                      <tr key="${item.id}">
-                                        <td>${item.id}</td>
-                                        <td>${item.name}</td>
-                                      </tr>
-                                    `).join('')}
-                         </tbody>
-                     </table>
-              `  // ????????????????
+ 
 
-    return React.createElement('div', {    dangerouslySetInnerHTML: {  __html: tableHTML  }    });
+    return React.createElement('div', { dangerouslySetInnerHTML: { __html: htmlx  }    });
 }
  

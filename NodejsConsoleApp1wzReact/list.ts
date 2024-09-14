@@ -1,3 +1,21 @@
+import { createElementx } from './MyComponent.js'; // ??????
+
+export async function createElement4data2tbl() {
+    const data = await fetchData8();
+    const tableHTML = `  <table>  <thead> <tr>  <th>ID</th><th>Name</th> </tr> </thead>
+                        <tbody>                            
+                                ${data.map(item => `
+                                     <tr key="${item.id}">
+                                       <td>${item.id}</td>
+                                       <td>${item.name}</td>
+                                     </tr>
+                                   `).join('')}
+                        </tbody>
+                    </table>
+             `  // ????????????????
+ return   createElementx(data, tableHTML);
+}
+
 
 export async function fetchData8() {
     console.log("function fetchData");

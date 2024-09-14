@@ -7,6 +7,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+import { createElementx } from './MyComponent.js'; // ??????
+export function createElement4data2tbl() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const data = yield fetchData8();
+        const tableHTML = `  <table>  <thead> <tr>  <th>ID</th><th>Name</th> </tr> </thead>
+                        <tbody>                            
+                                ${data.map(item => `
+                                     <tr key="${item.id}">
+                                       <td>${item.id}</td>
+                                       <td>${item.name}</td>
+                                     </tr>
+                                   `).join('')}
+                        </tbody>
+                    </table>
+             `; // ????????????????
+        return createElementx(data, tableHTML);
+    });
+}
 export function fetchData8() {
     return __awaiter(this, void 0, void 0, function* () {
         console.log("function fetchData");
