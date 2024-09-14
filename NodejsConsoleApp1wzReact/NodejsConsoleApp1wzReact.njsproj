@@ -44,6 +44,7 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="list_vue.html" />
     <Content Include="list422.json" />
     <Content Include="lib\utilReact.js">
       <SubType>Code</SubType>

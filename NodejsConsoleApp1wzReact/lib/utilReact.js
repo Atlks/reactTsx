@@ -47,15 +47,16 @@ export function React_createElement(htmlx) {
     return React.createElement('div', { dangerouslySetInnerHTML: { __html: htmlx  }    });
 }
 //createElement4data2tbl ReactDOM_render
-export function ReactDOM_render(createElementFun, rootElmt) {
+export function ReactDOM_render(createElement, rootElmt) {
     //.render(createElement4data2tbl
 
-    createElementFun()
-        .then(createElementFun1 => {
-            console.log('Result:', createElementFun1);
+    createElement()
+        .then(createElement1 => {
+            console.log('Result:', createElement1);
             console.log('rootElmt:', rootElmt);
+          
             ReactDOM.render(
-                React.createElement(createElementFun1),  // ???????
+                React.createElement(() => { return createElement1; }),  // ???????
                 document.getElementById(rootElmt));
 
             //  // ?? hydrate() ??? React ????????????? HTML ?

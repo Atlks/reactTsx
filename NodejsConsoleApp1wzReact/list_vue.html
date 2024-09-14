@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- 引入 Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <!-- Babel Standalone -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script src="bsc1.js"></script>
+
+    <script type="module">
+        // if browser env,,use un parse grammer..not import grame..
+        import { createElement4listMem } from './listMems.js'; // ??????
+
+        import { MyComponent, cmpnt2fun, ReactDOM_render } from './lib/utilReact.js'; // ??????
+
+        ReactDOM_render(createElement4listMem, 'root')
+
+
+
+    </script>
+</body>
+</html>

@@ -6,7 +6,39 @@
     <title></title>
 </head>
 <body>
+    <!-- react 组件的 HTML 模板 -->
+    --------------react list------------
     <div id="root"></div>
+
+
+    ----------vue ===========table---------
+
+    <!-- Vue 组件的 HTML 模板 -->
+    <div id="app4vue">
+
+
+        <!-- 表格 -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 过滤数据并使用 v-for 渲染表格行 -->
+                <tr v-for="item in filteredDataList" :key="item.id">
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.name }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+    <!-- 引入 Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 
     <!-- React -->
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
@@ -16,16 +48,34 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <script src="bsc1.js"></script>
-  
+
     <script type="module">
         // if browser env,,use un parse grammer..not import grame..
-         import {  createElementFun4listMem } from './listMems.js'; // ??????
-         
-        import { MyComponent, cmpnt2fun, ReactDOM_render } from './lib/utilReact.js'; // ??????
-               
-         ReactDOM_render(createElementFun4listMem, 'root')
+        import { createElement4listMem, createElement4listMem4vue } from './listMems.js'; // ??????
 
-       
+        import { MyComponent, cmpnt2fun, ReactDOM_render } from './lib/utilReact.js'; // ??????
+        import { fetchx } from './lib/util.js';
+        ReactDOM_render(createElement4listMem, 'root')
+
+        //rend vue
+        fetchx('http://localhost:8080/list422.json')
+            .then(datax => {
+                // 初始化 Vue 实例
+                new Vue({
+                    el: '#app4vue',
+                    data: {
+                        filteredDataList: datax
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+            //end rend vue
+        
+
+
+
 
     </script>
 </body>
