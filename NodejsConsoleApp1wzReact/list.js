@@ -24,7 +24,7 @@ export function fetchData8() {
             const result = yield response.json(); // ??JSON??
             console.log(1155);
             return result;
-            console.log(1156);
+            //   console.log(1156)
         }
         catch (error) {
             console.log(error);

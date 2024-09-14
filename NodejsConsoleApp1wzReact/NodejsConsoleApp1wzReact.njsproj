@@ -55,6 +55,9 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="doc\static lan kotlin go  dart.md">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="list.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
