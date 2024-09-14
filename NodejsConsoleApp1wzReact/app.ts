@@ -4,7 +4,7 @@ function fff() {
 }
 fff()
 
-import { MyComponent, cmpnt2fun, TablePage, fetchData } from './MyComponent.js'; // ??????
+import { MyComponent, cmpnt2fun, TablePage, fetchData } from './lib/utilReact.js'; // ??????
 
 //fetchData()
 import 'blob-polyfill';

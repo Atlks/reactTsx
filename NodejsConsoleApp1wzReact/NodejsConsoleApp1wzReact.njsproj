@@ -44,7 +44,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="list422.json" />
-    <Content Include="MyComponent.js">
+    <Content Include="lib\utilReact.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
@@ -58,16 +58,20 @@
     <TypeScriptCompile Include="doc\static lan kotlin go  dart.md">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="list.ts">
+    <TypeScriptCompile Include="lib\util.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="listMems.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="svr.ts" />
-    <TypeScriptCompile Include="bsc1.ts">
+    <TypeScriptCompile Include="lib\bsc1.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="doc\" />
+    <Folder Include="lib\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

@@ -19,11 +19,11 @@
   
     <script type="module">
         // if browser env,,use un parse grammer..not import grame..
-         import {  createElement4data2tbl } from './list.js'; // ??????
+         import {  createElementFun4listMem } from './listMems.js'; // ??????
          
-        import { MyComponent, cmpnt2fun, RenderData2CtrlAppdRoot } from './MyComponent.js'; // ??????
+        import { MyComponent, cmpnt2fun, ReactDOM_render } from './lib/utilReact.js'; // ??????
                
-         RenderData2CtrlAppdRoot(createElement4data2tbl, 'root')
+         ReactDOM_render(createElementFun4listMem, 'root')
 
        
 

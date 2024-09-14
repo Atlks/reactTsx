@@ -7,25 +7,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { createElementx } from './MyComponent.js'; // ??????
-export function createElementFun4data2tbl() {
-    return __awaiter(this, void 0, void 0, function* () {
-        //const data = await fetchx();
-        var result = yield fetchx('http://localhost:8080/list422.json');
-        const tableHTML = `  <table>  <thead> <tr>  <th>ID</th><th>Name</th> </tr> </thead>
-                        <tbody>                            
-                                ${result.map(item => `
-                                     <tr key="${item.id}">
-                                       <td>${item.id}</td>
-                                       <td>${item.name}</td>
-                                     </tr>
-                                   `).join('')}
-                        </tbody>
-                    </table>
-             `; // ????????????????
-        return () => { return createElementx(tableHTML); };
-    });
-}
 export function fetchx(url) {
     return __awaiter(this, void 0, void 0, function* () {
         console.log("function fetchData");
@@ -54,4 +35,4 @@ export function fetchx(url) {
         }
     });
 }
-//# sourceMappingURL=list.js.map
+//# sourceMappingURL=util.js.map
