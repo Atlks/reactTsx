@@ -5,6 +5,9 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsConsoleApp1wzReact", "NodejsConsoleApp1wzReact\NodejsConsoleApp1wzReact.njsproj", "{4FF8090B-A135-4861-9A69-801B668127BE}"
 EndProject
+ 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp2puremaui", "MauiApp2puremaui\MauiApp2puremaui.csproj", "{76D538B3-1143-4B92-A5FA-837214CE1511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +18,18 @@ Global
 		{4FF8090B-A135-4861-9A69-801B668127BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF8090B-A135-4861-9A69-801B668127BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FF8090B-A135-4861-9A69-801B668127BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C5BA6E-CE27-4808-8FE1-8B4ADC85FF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C5BA6E-CE27-4808-8FE1-8B4ADC85FF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C5BA6E-CE27-4808-8FE1-8B4ADC85FF49}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3C5BA6E-CE27-4808-8FE1-8B4ADC85FF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C5BA6E-CE27-4808-8FE1-8B4ADC85FF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C5BA6E-CE27-4808-8FE1-8B4ADC85FF49}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{76D538B3-1143-4B92-A5FA-837214CE1511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D538B3-1143-4B92-A5FA-837214CE1511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D538B3-1143-4B92-A5FA-837214CE1511}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{76D538B3-1143-4B92-A5FA-837214CE1511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D538B3-1143-4B92-A5FA-837214CE1511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D538B3-1143-4B92-A5FA-837214CE1511}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
