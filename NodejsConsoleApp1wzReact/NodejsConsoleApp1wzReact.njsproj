@@ -73,11 +73,15 @@
     <TypeScriptCompile Include="lib\bsc1.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="tool\toolPdf.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="doc\" />
     <Folder Include="lib\" />
     <Folder Include="cfg\" />
+    <Folder Include="tool\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

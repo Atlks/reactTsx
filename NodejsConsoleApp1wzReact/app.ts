@@ -3,7 +3,9 @@ function fff() {
     console.log('Helffffflo  ');
 }
 fff()
-
+import { test311, test_xae, testExptFld } from './tool/toolPdf.js'; // ??????
+//test311();
+testExptFld()
 import { MyComponent, cmpnt2fun, TablePage, fetchData } from './lib/utilReact.js'; // ??????
 
 //fetchData()
@@ -26,7 +28,7 @@ console.log("start wbsvr...");
 //console.log(myFunction("222"))
 //sleepx(500 * 1000);
 import { test422 } from './lib/bscUI.js';
-test422();
+test422(); test_xae();
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -44,6 +46,6 @@ app.get('/', (req, res) => {
 });
 
 console.log("http://localhost:" + port)
-app.listen(port, () => {
-    console.log(`Server listening on port ${port}`);
-});
+//app.listen(port, () => {
+//    console.log(`Server listening on port ${port}`);
+//});
